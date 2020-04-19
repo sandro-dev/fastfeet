@@ -49,7 +49,7 @@ export default function InsertDeliveryman(deliveryman) {
     <>
       <HeaderContent>
         <div>
-          <h1>Cadastro de entregadores</h1>
+          <h1>Edição de entregadores</h1>
         </div>
         <aside>
           <Button type="back" url="/deliverymen" />
