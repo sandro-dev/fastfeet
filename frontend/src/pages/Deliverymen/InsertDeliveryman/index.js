@@ -18,7 +18,6 @@ export default function InsertDeliveryman() {
       const schema = Yup.object().shape({
         name: Yup.string().required('O nome é obrigatório'),
         email: Yup.string().required('O email é obrigatório'),
-        avatar_id: Yup.number().notRequired(),
       });
 
       await schema.validate(data, { abortEarly: false });

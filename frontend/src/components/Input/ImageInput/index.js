@@ -19,7 +19,7 @@ export default function ImageInput({ name, iconName, fullname, ...rest }) {
       const data = new FormData();
       data.append('file', e.target.files[0]);
       const response = await api.post('files', data);
-      const { id, url } = response.data.file;
+      const { id, url } = response.data;
       setAvatarId(id);
       setPreview(url);
     } else {
