@@ -45,20 +45,24 @@ Faça um clone desse repositório.
 - Execute o comando `yarn` para instalar as dependências;
 - Execute o comando `cp .env.example .env` e preencha o arquivo `.env` com `suas` variáveis de ambiente, para que tudo funcione perfeitamente;
 
-- Execute o comando `docker-compose up -d` para montar o ambiente;
-
-- Execute o comando `yarn sequelize db:migrate` para executar as migrations;
-
 Agora vamos instalar duas imagens bancos de dados: 
 
 - Primeiro vamos instalar o Postgres, para armazenar nossas tabelas; 
 Execute o comando: 
-`docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
+`docker run --name dbpostgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 
 - Posteriormente, vamos instalar o Redis, o banco que vai gerenciar o envio de e-mails com filas com alta performance.
 
 Execute o comando:
 `docker run --name redis -p 6379:6379 -d -t redis:alpine`
+
+Vamos configurar o banco de dados da aplicação:
+
+- Crie um novo banco de dados *postgres* com o nome que colocou em *DB_HOST*
+
+- Execute o comando `yarn sequelize db:migrate` para executar as migrations;
+- Execute o comando `yarn sequelize db:seed:all` para executar as seed;
+
 
 Ainda na pasta backend, vamos colocar o servidor para rodar 
 
