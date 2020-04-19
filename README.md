@@ -43,7 +43,7 @@ Faça um clone desse repositório.
 
 - [Docker](https://www.docker.com/)
 
-### Backend
+### :computer: Backend
 
 - A partir da raiz do projeto, entre na pasta backend:
 
@@ -124,7 +124,7 @@ Lembrando que o servidor reflete as ações do usuário administrador.
 - Dados para login: 
 - usuario: admin@fastfeet.com, senha: 123456
 
-### :phone: Mobile
+### 📱 Mobile
 
 > OBS.: O aplicativo mobile só foi testado para android
 
