@@ -1,7 +1,11 @@
-  ![logo](.github/logo.png)
+<h1 align="center">
+    <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/.github/logo.png">
+</h1>
+
 
 # Fastfeet App
 Esse é o Desafio do Bootcamp GoStack 10 da Rocketseat. Esse código corresponde ao desafio completo, incluindo o backend, frontend e app mobile do Fastfeet.
+
 
 [](https://img.shields.io/badge/made%20by-Sandro%20Santos-blue)
 [](https://img.shields.io/github/license/sandro-dev/fastfeet-backend?color=blue&label=license&logo=MIT)
@@ -45,16 +49,23 @@ Faça um clone desse repositório.
 - Execute o comando `yarn` para instalar as dependências;
 - Execute o comando `cp .env.example .env` e preencha o arquivo `.env` com `suas` variáveis de ambiente, para que tudo funcione perfeitamente;
 
-Agora vamos instalar duas imagens bancos de dados: 
+Agora vamos instalar duas imagens de bancos de dados: 
 
 - Primeiro vamos instalar o Postgres, para armazenar nossas tabelas; 
 Execute o comando: 
-`docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
+
+
+```bash
+    docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+```
 
 - Posteriormente, vamos instalar o Redis, o banco que vai gerenciar o envio de e-mails com filas com alta performance.
 
 Execute o comando:
-`docker run --name redis -p 6379:6379 -d -t redis:alpine`
+
+```bash    
+    docker run --name redis -p 6379:6379 -d -t redis:alpine
+```
 
 Vamos configurar o banco de dados da aplicação:
 
