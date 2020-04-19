@@ -49,7 +49,7 @@ Agora vamos instalar duas imagens bancos de dados:
 
 - Primeiro vamos instalar o Postgres, para armazenar nossas tabelas; 
 Execute o comando: 
-`docker run --name dbpostgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
+`docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 
 - Posteriormente, vamos instalar o Redis, o banco que vai gerenciar o envio de e-mails com filas com alta performance.
 
@@ -61,6 +61,7 @@ Vamos configurar o banco de dados da aplicação:
 - Crie um novo banco de dados *postgres* com o nome que colocou em *DB_HOST*
 
 - Execute o comando `yarn sequelize db:migrate` para executar as migrations;
+
 - Execute o comando `yarn sequelize db:seed:all` para executar as seed;
 
 
@@ -76,7 +77,10 @@ Em outro prompt, execute o comando `yarn queue` e deixe rodando para gerenciar a
 - Aguarde o browser abrir com o url da aplicação;
 
 Pronto, agora é só explorar o  web app ;)
-Lembrando que o servidor refleti as ações do usuário administrador
+Lembrando que o servidor reflete as ações do usuário administrador.
+
+- Dados para login: 
+- usuario: admin@fastfeet.com, senha: 123456
 
 ### Mobile
 - A partir da raiz do projeto, entre na pasta mobile `cd mobile`;
