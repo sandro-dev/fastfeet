@@ -15,7 +15,6 @@ Esse é o Desafio do Bootcamp GoStack 10 da Rocketseat. Esse código corresponde
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### Backend
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
 - [Docker](https://www.docker.com/)
@@ -27,6 +26,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Handlebars](https://handlebarsjs.com/)
 - [Redis](https://redis.io/)
 - [Bee-Queue](https://github.com/bee-queue/bee-queue)
+- [React](https://reactjs.org/)
+- [React-Native](https://reactnative.dev/)
+- [React-Redux](https://redux.js.org/basics/usage-with-react)
+- [Redux-Saga](https://github.com/redux-saga/redux-saga)
 
 ## :computer: Instalação
 
