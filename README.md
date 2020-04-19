@@ -35,7 +35,6 @@ Faça um clone desse repositório.
 ### Pré-requisitos
 
 - [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ### Backend
 
