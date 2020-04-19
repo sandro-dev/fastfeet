@@ -11,21 +11,21 @@ import history from '~/services/history';
 
 import { Container, Button, List, ItemList, ButtonItem } from './styles';
 
-export default function MoreMenu({ id, items, width }) {
+export default function MoreMenu({ id, items, width, message }) {
   const [visible, setVisible] = useState(false);
 
   function handleToggleVisible() {
     setVisible(!visible);
   }
 
-  async function handleDelete(url, itemId) {
+  async function handleDelete(url, itemId, message) {
     console.log('#=> handleDelete', url, itemId);
-    const confirm = window.confirm(`Tem certeza que quer deletar este item?`);
+    const confirm = window.confirm(message.confirm);
 
     if (confirm) {
       const response = await api.delete(`${url}`);
       if (response.data.ok === true) {
-        toast.success(`item deletado com sucesso`);
+        toast.success(message.feedback);
         setTimeout(() => window.location.reload(false), 1000);
       } else {
         toast.error('Erro ao tentar deletar item');
@@ -62,7 +62,7 @@ export default function MoreMenu({ id, items, width }) {
                 {item.type === 'delete' ? (
                   <ButtonItem
                     onClick={() => {
-                      handleDelete(item.url, id);
+                      handleDelete(item.url, id, (item.message ? item.message : message));
                     }}
                   >
                     <MdDeleteForever size={20} color="#de3b3b" />
@@ -82,8 +82,13 @@ MoreMenu.propTypes = {
   id: PropTypes.number.isRequired,
   width: PropTypes.number,
   items: PropTypes.arrayOf(PropTypes.object).isRequired,
+  message: PropTypes.objectOf(PropTypes.string),
 };
 
 MoreMenu.defaultProps = {
   width: 150,
+  message: {
+    confirm: 'Tem certeza que quer deletar este item?',
+    feedback: 'Item deletado com sucesso'
+  },
 };

@@ -35,6 +35,10 @@ export default function Problems() {
               type: 'delete',
               text: 'Cancelar encomenda',
               url: `/problem/${problem.id}/cancel-delivery`,
+              message: {
+                confirm: 'Deseja realmente cancelar esta encomenda?',
+                feedback: 'Encomenda cancelada com sucesso'
+              }
             },
           ]}
         />,
