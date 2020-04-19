@@ -51,17 +51,13 @@ Faça um clone desse repositório.
 
 Agora vamos instalar duas imagens de bancos de dados: 
 
-- Primeiro vamos instalar o Postgres, para armazenar nossas tabelas; 
-Execute o comando: 
-
+- Primeiro vamos instalar o Postgres, para armazenar nossas tabelas. Execute o seguinte comando no terminal:
 
 ```bash
     docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 ```
 
-- Posteriormente, vamos instalar o Redis, o banco que vai gerenciar o envio de e-mails com filas com alta performance.
-
-Execute o comando:
+- Posteriormente, vamos instalar o Redis, o banco que vai gerenciar o envio de e-mails com filas com alta performance. Execute o comando:
 
 ```bash    
     docker run --name redis -p 6379:6379 -d -t redis:alpine
@@ -71,18 +67,36 @@ Vamos configurar o banco de dados da aplicação:
 
 - Crie um novo banco de dados *postgres* com o nome que colocou em *DB_HOST*
 
-- Execute o comando `yarn sequelize db:migrate` para executar as migrations;
+- Rode o comando abaixo para executar as migrations, e criar as tabelas no banco de dados;
 
-- Execute o comando `yarn sequelize db:seed:all` para executar as seed;
+```bash    
+    yarn sequelize db:migrate
+```
 
+Agora, vamos popular a tabela `users` com o usuário administrador:
 
-Ainda na pasta backend, vamos colocar o servidor para rodar 
+```bash    
+    yarn sequelize db:seed:all
+```
 
-Execute o comando `yarn dev` para colocar o servidor node para rodar;
-Em outro prompt, execute o comando `yarn queue` e deixe rodando para gerenciar a fila de emails
+Ainda na pasta backend, vamos colocar o servidor para rodar.
+
+```bash
+    yarn dev
+```
+
+Em outro prompt/terminal, execute o seguinte comando e deixe rodando para gerenciar a fila de emails
+```bash
+    yarn queue
+```
+
 
 ### Frontend
-- A partir da raiz do projeto, entre na pasta frontend `cd frontend`;
+- A partir da raiz do projeto, entre na pasta frontend:
+  ```bash
+      cd frontend
+  ```
+
 - Execute o comando `yarn` para instalar todas as dependências;
 - Execute o comando `yarn start` para executar a aplicação;
 - Aguarde o browser abrir com o url da aplicação;
