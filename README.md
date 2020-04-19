@@ -3,8 +3,6 @@
 # Fastfeet App
 Esse é o Desafio do Bootcamp GoStack 10 da Rocketseat. Esse código corresponde ao desafio completo, incluindo o backend, frontend e app mobile do Fastfeet.
 
-> OBS.: O aplicativo mobile só foi testado para android
-
 [](https://img.shields.io/badge/made%20by-Sandro%20Santos-blue)
 [](https://img.shields.io/github/license/sandro-dev/fastfeet-backend?color=blue&label=license&logo=MIT)
 [](https://img.shields.io/github/repo-size/sandro-dev/fastfeet-backend)
@@ -83,6 +81,9 @@ Lembrando que o servidor reflete as ações do usuário administrador.
 - usuario: admin@fastfeet.com, senha: 123456
 
 ### Mobile
+
+> OBS.: O aplicativo mobile só foi testado para android
+
 - A partir da raiz do projeto, entre na pasta mobile `cd mobile`;
 - Execute o comando `yarn` para instalar todas as dependências;
 
@@ -92,6 +93,7 @@ Utilizando um software como o `Genymotion`, crie um dispositivo emulador para ro
 Pronto, agora é só explorar o app ;)
 Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
 
+- Fata efetuar o login, utilize um ID númerico de um deliveryman cadastrado
 
 ---
 Desenvolvido por [Sandro Santos](https://www.linkedin.com/in/sandrossantos/) | https://github.com/sandro-dev
