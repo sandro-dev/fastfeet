@@ -23,6 +23,7 @@ import {
   BtnFilter,
   BtnFilterText,
   Feed,
+  EmptyFeed
 } from './styles';
 
 export default function Deliveries() {
@@ -119,6 +120,11 @@ export default function Deliveries() {
           data={deliveries}
           keyExtractor={(item) => String(item.id)}
           renderItem={({ item }) => <CardItem data={item} />}
+          ListEmptyComponent={
+            loading ? (
+              <ActivityIndicator color="#7d40e7" size="large" style={{ marginTop: 100 }} />
+            ) : ( <EmptyFeed> Nenhuma encomenda encontrada </EmptyFeed> )
+          }
         />
       )}
     </Container>

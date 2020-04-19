@@ -23,6 +23,10 @@ export const WelcomeMessage = styled(Text)`
   color: #666;
 `;
 
+export const EmptyFeed = styled(Text)`
+  color: #666;
+`;
+
 export const WelcomeName = styled(Text)`
   color: #444;
   font-size: 22px;
