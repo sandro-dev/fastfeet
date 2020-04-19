@@ -9,6 +9,13 @@ export const Container = styled.div`
     flex-direction: column;
     padding-bottom: 12px;
 
+
+    img {
+      max-width: 236px;
+      object-fit: cover;
+	    margin: 20px auto !important;
+    }
+
     strong {
       color: #444;
       font-size: 14px;
