@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React-Redux](https://redux.js.org/basics/usage-with-react)
 - [Redux-Saga](https://github.com/redux-saga/redux-saga)
 
-## :mortar_board: Instalação
+## :wrench: Instalação
 
 Faça um clone desse repositório.
 
