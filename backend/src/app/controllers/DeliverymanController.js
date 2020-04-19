@@ -62,14 +62,13 @@ class DeliverymanController {
       email: Yup.string()
         .email()
         .required(),
-      avatar_id: Yup.string(),
     });
 
     if (!(await schema.isValid(req.body))) {
       return res.status(401).json({ error: 'Validation fails' });
     }
 
-    const { email } = req.body;
+    const { name, email, avatar_id } = req.body;
 
     const userExists = await Deliveryman.findOne({ where: { email } });
 
@@ -79,7 +78,7 @@ class DeliverymanController {
         .json({ error: 'This email is already registered' });
     }
 
-    const deliveryman = await Deliveryman.create(req.body);
+    const deliveryman = await Deliveryman.create({ name, email, avatar_id });
 
     return res.json(deliveryman);
   }
@@ -88,7 +87,6 @@ class DeliverymanController {
     const schema = Yup.object().shape({
       name: Yup.string(),
       email: Yup.string().email(),
-      avatar_id: Yup.string(),
     });
 
     if (!(await schema.isValid(req.body))) {
