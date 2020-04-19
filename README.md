@@ -45,8 +45,17 @@ Faça um clone desse repositório.
 
 ### Backend
 
-- A partir da raiz do projeto, entre na pasta backend `cd backend`;
-- Execute o comando `yarn` para instalar as dependências;
+- A partir da raiz do projeto, entre na pasta backend:
+
+```bash
+  cd backend
+  ```
+
+- Execute o comando `yarn` para instalar as dependências:
+```bash
+    yarn
+  ```
+
 - Execute o comando `cp .env.example .env` e preencha o arquivo `.env` com `suas` variáveis de ambiente, para que tudo funcione perfeitamente;
 
 Agora vamos instalar duas imagens de bancos de dados: 
@@ -54,13 +63,13 @@ Agora vamos instalar duas imagens de bancos de dados:
 - Primeiro vamos instalar o Postgres, para armazenar nossas tabelas. Execute o seguinte comando no terminal:
 
 ```bash
-    docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+  docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 ```
 
 - Posteriormente, vamos instalar o Redis, o banco que vai gerenciar o envio de e-mails com filas com alta performance. Execute o comando:
 
 ```bash    
-    docker run --name redis -p 6379:6379 -d -t redis:alpine
+  docker run --name redis -p 6379:6379 -d -t redis:alpine
 ```
 
 Vamos configurar o banco de dados da aplicação:
@@ -70,35 +79,43 @@ Vamos configurar o banco de dados da aplicação:
 - Rode o comando abaixo para executar as migrations, e criar as tabelas no banco de dados;
 
 ```bash    
-    yarn sequelize db:migrate
+  yarn sequelize db:migrate
 ```
 
 Agora, vamos popular a tabela `users` com o usuário administrador:
 
 ```bash    
-    yarn sequelize db:seed:all
+  yarn sequelize db:seed:all
 ```
 
 Ainda na pasta backend, vamos colocar o servidor para rodar.
 
 ```bash
-    yarn dev
+  yarn dev
 ```
 
 Em outro prompt/terminal, execute o seguinte comando e deixe rodando para gerenciar a fila de emails
 ```bash
-    yarn queue
+  yarn queue
 ```
 
 
 ### Frontend
 - A partir da raiz do projeto, entre na pasta frontend:
   ```bash
-      cd frontend
+  cd frontend
   ```
 
-- Execute o comando `yarn` para instalar todas as dependências;
-- Execute o comando `yarn start` para executar a aplicação;
+- Execute o comando yarn para instalar todas as dependências;
+```bash
+  yarn
+  ```
+
+- Execute o seguinte comando para executar a aplicação;
+```bash
+  yarn start
+  ```
+
 - Aguarde o browser abrir com o url da aplicação;
 
 Pronto, agora é só explorar o  web app ;)
@@ -111,11 +128,22 @@ Lembrando que o servidor reflete as ações do usuário administrador.
 
 > OBS.: O aplicativo mobile só foi testado para android
 
-- A partir da raiz do projeto, entre na pasta mobile `cd mobile`;
+- A partir da raiz do projeto, entre na pasta mobile :
+```bash
+    cd mobile
+  ```
+
 - Execute o comando `yarn` para instalar todas as dependências;
+```bash
+    yarn
+  ```
 
 Utilizando um software como o `Genymotion`, crie um dispositivo emulador para rodar o aplicativo ou se preferir, conecte um smartphone android em seu computador através do cabo USB, e certifique-se de que está hablitado nas opções de desenvolvedor de seu aparelho a depuração por USB;
-- Execute o comando `react-native run-android` para instalar o aplicativo em um smartphone ou emulador
+
+- Execute o comando abaixo para instalar o aplicativo em um smartphone ou emulador
+```bash
+  react-native run-android
+  ```
 
 Pronto, agora é só explorar o app ;)
 Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
