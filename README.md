@@ -15,7 +15,7 @@ Esse é o Desafio do Bootcamp GoStack 10 da Rocketseat. Esse código corresponde
 
 [Tecnologias](#rocket-tecnologias) | [Instalação](#computer-instalação)
 
-## :rocket: Tecnologias
+## :gear: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React-Redux](https://redux.js.org/basics/usage-with-react)
 - [Redux-Saga](https://github.com/redux-saga/redux-saga)
 
-## :computer: Instalação
+## :mortar_board: Instalação
 
 Faça um clone desse repositório.
 
@@ -100,7 +100,7 @@ Em outro prompt/terminal, execute o seguinte comando e deixe rodando para gerenc
 ```
 
 
-### Frontend
+### :computer: Frontend
 - A partir da raiz do projeto, entre na pasta frontend:
   ```bash
   cd frontend
@@ -124,7 +124,7 @@ Lembrando que o servidor reflete as ações do usuário administrador.
 - Dados para login: 
 - usuario: admin@fastfeet.com, senha: 123456
 
-### Mobile
+### :phone: Mobile
 
 > OBS.: O aplicativo mobile só foi testado para android
 
