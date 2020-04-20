@@ -180,6 +180,14 @@ Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
 
 ## :camera: Screenshots
 <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-01.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-02.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-04.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-04b.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-06.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-07.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-08.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-09.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-11.png" />
 
 
 ## :memo: Licença
