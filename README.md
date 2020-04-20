@@ -5,9 +5,6 @@
 # Fastfeet App
 O Fastfeet é uma aplicação para gerenciamento de entregas/delivery.
 
-A aplicação faz parte do Desafio Final do Bootcamp da Rocketseat. Esse código corresponde ao desafio completo, incluindo o backend, frontend e app mobile do Fastfeet.
-
-
 [](https://img.shields.io/badge/made%20by-Sandro%20Santos-blue)
 [](https://img.shields.io/github/license/sandro-dev/fastfeet-backend?color=blue&label=license&logo=MIT)
 [](https://img.shields.io/github/repo-size/sandro-dev/fastfeet-backend)
@@ -16,13 +13,17 @@ A aplicação faz parte do Desafio Final do Bootcamp da Rocketseat. Esse código
 
 ## Indíce
 
+- [Sobre](#rocket-Sobre)
 - [Funcionalidades](#heart_eyes-Funcionalidades)
 - [Tecnologias](#gear-Tecnologias)
 - [Instalação](#Instalação)
   - [Instalação do Backend](#computer-Backend)
   - [Instalação do Frontend ](#computer-Frontend)
   - [Instalação do App Mobile ](#smartphone-Mobile)
-- [Licença](#memo-Licença)
+- [Licença](#-Licença)
+
+## :rocket: Sobre
+  A aplicação faz parte do Desafio Final do Bootcamp da Rocketseat. Esse código corresponde ao desafio completo, incluindo o backend, frontend e app mobile do Fastfeet.
 
 
 ## :heart_eyes: Funcionalidades
