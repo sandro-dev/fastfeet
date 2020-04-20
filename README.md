@@ -14,11 +14,15 @@ A aplicação faz parte do Desafio Final do Bootcamp da Rocketseat. Esse código
 
 > “A sabedoria é a coisa principal; adquire pois a sabedoria, emprega tudo o que possuis na aquisição de entendimento.” (Provérbios 4:7)”
 
-# Indíce
+## Indíce
 
 - [Funcionalidades](#heart_eyes-Funcionalidades)
-- [Tecnologias](#-Tecnologias)
-- [Instalação](#-instalação)
+- [Tecnologias](#gear-Tecnologias)
+- [Instalação](#Instalação)
+  - [Instalação do Backend](#computer-Backend)
+  - [Instalação do Frontend ](#computer-Frontend)
+  - [Instalação do App Mobile ](#smartphone-Mobile)
+
 
 ## :heart_eyes: Funcionalidades
 
