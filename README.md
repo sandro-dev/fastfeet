@@ -2,8 +2,10 @@
     <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/.github/logo.png">
 </h1>
 
-# Fastfeet App
-O Fastfeet é uma aplicação para gerenciamento de entregas/delivery.
+# Fastfeet App :truck:
+Trata-se de uma aplicação para gerenciamento de encomendas/delivery para uma distribuidora ficitícia, a FastFeet.
+
+O gerenciamento é todo feito pela interface web, enquanto os entregadores utilizam uma aplicação mobile para visualizar as encomendas pedentes, as já finalizadas, informar um problema e confirmar uma entrega.
 
 <br />
 
@@ -11,20 +13,21 @@ O Fastfeet é uma aplicação para gerenciamento de entregas/delivery.
 
 ## Indíce
 
-- [Sobre](#rocket-Sobre)
-- [Funcionalidades](#heart_eyes-Funcionalidades)
+- [Sobre](#book-Sobre)
+- [Funcionalidades](#hammer-Funcionalidades)
 - [Tecnologias](#gear-Tecnologias)
 - [Instalação](#computer-Instalação)
   - [Instalação do Backend](#computer-Backend)
   - [Instalação do Frontend ](#computer-Frontend)
-  - [Instalação do App Mobile ](#computer-Mobile)
+  - [Instalação do App Mobile ](#iphone-Mobile)
+- [Screenshots](#camera-Screnshots)
 - [Licença](#memo-Licença)
 
-## :rocket: Sobre
+## :book: Sobre
   A aplicação faz parte do Desafio Final do Bootcamp da Rocketseat. Esse código corresponde ao desafio completo, incluindo o backend, frontend e app mobile do Fastfeet.
 
 
-## :heart_eyes: Funcionalidades
+## :hammer: Funcionalidades
 
 - Autenticação utilizando JSON Web Token (JWT);
 - Validação dos dados de entrada;
@@ -149,7 +152,7 @@ Lembrando que o servidor reflete as ações do usuário administrador.
 - Dados para login: 
 - usuario: admin@fastfeet.com, senha: 123456
 
-### 📱 Mobile
+### :iphone: Mobile
 
 > OBS.: O aplicativo mobile só foi testado para android
 
@@ -174,6 +177,10 @@ Pronto, agora é só explorar o app ;)
 Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
 
 - Fata efetuar o login, utilize um ID númerico de um deliveryman cadastrado
+
+## :camera: Screenshots
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/web/print-01.png" />
+
 
 ## :memo: Licença
 
