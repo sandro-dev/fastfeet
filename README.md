@@ -22,6 +22,7 @@ A aplicação faz parte do Desafio Final do Bootcamp da Rocketseat. Esse código
   - [Instalação do Backend](#computer-Backend)
   - [Instalação do Frontend ](#computer-Frontend)
   - [Instalação do App Mobile ](#smartphone-Mobile)
+- [Licença](#memo-Licença)
 
 
 ## :heart_eyes: Funcionalidades
@@ -175,8 +176,12 @@ Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
 
 - Fata efetuar o login, utilize um ID númerico de um deliveryman cadastrado
 
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
-Desenvolvido por [Sandro Santos](https://www.linkedin.com/in/sandrossantos/) | https://github.com/sandro-dev
 
-
+Feito com ♥ by [Sandro Santos](https://www.linkedin.com/in/sandrossantos/) 
+  [Me siga no Github](https://github.com/sandro-dev)
+  [Me add no LinkedIn](https://www.linkedin.com/in/sandrossantos/)
