@@ -2,9 +2,10 @@
     <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/.github/logo.png">
 </h1>
 
-
 # Fastfeet App
-Esse é o Desafio do Bootcamp GoStack 10 da Rocketseat. Esse código corresponde ao desafio completo, incluindo o backend, frontend e app mobile do Fastfeet.
+O Fastfeet é uma aplicação para gerenciamento de entregas/delivery.
+
+A aplicação faz parte do Desafio Final do Bootcamp da Rocketseat. Esse código corresponde ao desafio completo, incluindo o backend, frontend e app mobile do Fastfeet.
 
 
 [](https://img.shields.io/badge/made%20by-Sandro%20Santos-blue)
@@ -13,7 +14,22 @@ Esse é o Desafio do Bootcamp GoStack 10 da Rocketseat. Esse código corresponde
 
 > “A sabedoria é a coisa principal; adquire pois a sabedoria, emprega tudo o que possuis na aquisição de entendimento.” (Provérbios 4:7)”
 
-[Tecnologias](#rocket-tecnologias) | [Instalação](#computer-instalação)
+
+<p align="center">
+ [Funcionalidades](#heart_eyes-Funcionalidades) | [Tecnologias](#-Tecnologias) | [Instalação](#-instalação)
+</p>
+
+## :heart_eyes: Funcionalidades
+
+- Autenticação utilizando JSON Web Token (JWT);
+- Validação dos dados de entrada;
+- Gestão de destinatários;
+- Gestão de entregadores;
+- Gestão de encomendas;
+- Gerenciamento dos problemas de entrega;
+- O entregador pode informar um problema pelo app mobile;
+- Controle do horário para retirada das encomendas;
+- Após a entrega, o entregador tira uma foto da assinatura do destinaráriopara comprovar a entrega
 
 ## :gear: Tecnologias
 
@@ -37,7 +53,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :wrench: Instalação
 
-Faça um clone desse repositório.
+Faça um clone desse repositório utilizando o comando `git clone` ou faça download.
+
+```bash
+  git clone https://github.com/sandro-dev/fastfeet.git
+```
 
 ### Pré-requisitos
 
@@ -149,6 +169,7 @@ Pronto, agora é só explorar o app ;)
 Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
 
 - Fata efetuar o login, utilize um ID númerico de um deliveryman cadastrado
+
 
 ---
 Desenvolvido por [Sandro Santos](https://www.linkedin.com/in/sandrossantos/) | https://github.com/sandro-dev
