@@ -16,11 +16,11 @@ O gerenciamento é todo feito pela interface web, enquanto os entregadores utili
 - [Sobre](#book-Sobre)
 - [Funcionalidades](#hammer-Funcionalidades)
 - [Tecnologias](#gear-Tecnologias)
-- [Instalação](#computer-Instalação)
+- [Instalação](#wrench-Instalação)
   - [Instalação do Backend](#computer-Backend)
   - [Instalação do Frontend ](#computer-Frontend)
   - [Instalação do App Mobile ](#iphone-Mobile)
-- [Screenshots](#camera-Screnshots)
+- [Screenshots](#camera-Screenshots)
 - [Licença](#memo-Licença)
 
 ## :book: Sobre
@@ -192,7 +192,12 @@ Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
 > mobile
 
 <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-01.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-02.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-03.png" width="20%" />
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-04.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-05.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-06.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-07.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-08.png" width="20%" />
+
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-04.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-05.png" width="20%" /> 
+
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-06.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-07.png" width="20%" /> 
+
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-09.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-08.png" width="20%" /> <img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-10.png" width="20%" />
 
 
 ## :memo: Licença
@@ -201,6 +206,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Feito com ♥ by [Sandro Santos](https://www.linkedin.com/in/sandrossantos/) 
-  [Me siga no Github](https://github.com/sandro-dev)
-  [Me add no LinkedIn](https://www.linkedin.com/in/sandrossantos/)
+Feito com ♥ by [Sandro Santos](https://github.com/sandro-dev) | [Me add no LinkedIn](https://www.linkedin.com/in/sandrossantos/)
