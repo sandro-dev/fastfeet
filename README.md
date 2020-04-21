@@ -191,21 +191,21 @@ Vale salientar que o aplicativo reflete as ações do entregador/deliveryman
 
 > mobile
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-01.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-01.png" width="50%" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-02.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-02.png" width="50%" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-03.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-03.png" width="50%" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-04.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-04.png" width="50%" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-05.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-05.png" width="50%" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-06.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-06.png" width="50%" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-07.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-07.png" width="50%" />
 
-<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-08.png" />
+<img src="https://raw.githubusercontent.com/sandro-dev/fastfeet/master/screenshots/mobile/print-08.png" width="50%" />
 
 
 ## :memo: Licença
